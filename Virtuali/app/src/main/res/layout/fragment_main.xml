@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dark3"
+    android:paddingTop="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.mc.virtuali.view.EmptyRecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:text="@string/empty_view_text"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin_default"
+        android:layout_marginRight="@dimen/fab_margin_default"
+        android:layout_marginBottom="@dimen/fab_margin_default"
+        android:backgroundTint="@color/white"
+        app:borderWidth="0dp"
+        app:srcCompat="@drawable/ic_alarm_white"
+        app:fabSize="auto"/>
+
+</android.support.design.widget.CoordinatorLayout>

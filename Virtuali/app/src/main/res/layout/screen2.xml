@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_dark3"
+>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        app:cardBackgroundColor="@color/transi"
+        app:cardCornerRadius="5dp"
+        android:elevation="@dimen/cardview_default_elevation">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_vertical_margin"
+                android:id="@+id/ocrtext"
+                android:textColor="@color/white"
+                android:textAlignment="gravity"
+                android:fontFamily="casual"/>
+
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/search"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@android:color/transparent"
+            android:textColor="@color/colorAccent"
+            app:srcCompat="@drawable/ic_search_white_24dp"
+            android:text="@string/search">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/save"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:textColor="@color/colorAccent"
+            android:src="@drawable/ic_save_white_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/search"
+            android:text="@string/save" />
+
+    </RelativeLayout>
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:id="@+id/ocrtext"/>-->
+
+    <!--</ScrollView>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/search"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:text="@string/search"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/save"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_toRightOf="@+id/search"-->
+            <!--android:text="@string/save" />-->
+
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>

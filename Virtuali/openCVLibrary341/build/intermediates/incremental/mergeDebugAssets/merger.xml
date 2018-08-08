@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/pranav/Downloads/Virtual-i_2504/Virtual-i_1204/openCVLibrary341/src/main/assets"/><source path="/home/pranav/Downloads/Virtual-i_2504/Virtual-i_1204/openCVLibrary341/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/pranav/Downloads/Virtual-i_2504/Virtual-i_1204/openCVLibrary341/src/debug/assets"/></dataSet></merger>

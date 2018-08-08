@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/camera" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="@string/search" />
+
+    </group>
+
+    <item android:title="Prescription"
+        android:icon="@drawable/prescription2">
+        <menu>
+            <item
+                android:id="@+id/nav_capture_prescription"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/capture_prescription" />
+            <item
+                android:id="@+id/nav_gallery_prescriptions"
+                android:icon="@drawable/gallery"
+                android:title="@string/gallery_prescription" />
+            <item
+                android:id="@+id/nav_prescription_list"
+                android:icon="@drawable/prescription2"
+                android:title="@string/prescription_list" />
+
+        </menu>
+    </item>
+
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/nav_notes"
+                android:icon="@drawable/ic_audiotrack_black_24dp"
+                android:title="@string/notes" />
+            <item
+                android:id="@+id/nav_reminders"
+                android:icon="@android:drawable/ic_popup_reminder"
+                android:title="@string/reminders" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+    </group>
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#d4592d</color>-->
+    <!--<color name="colorPrimaryDark">#d45e36</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#fffbf9</color>
+    <color name="gray">#fafafa</color>
+    <color name="colorPrimary">#2a7e89</color>
+    <color name="colorPrimaryDark">#1e7278</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="gajari_rang">#e64c4c</color>
+    <color name="lightCyan">#E0FFFF</color>
+    <color name="pastelOrange">#ff9e80</color>
+    <color name="accent">#FF4081</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="transi">#83f5f8f9</color>
+
+</resources>
